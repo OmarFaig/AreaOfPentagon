@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class DecToHex {
+
+	public static void main (String [] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Please enter decimal number:");
+		int dec = sc.nextInt();
+		String hex; 
+
+		if (dec>=10 || dec <=15) {
+		switch (dec) {
+		case 0: hex = "0";System.out.println("The Hex  value is " + hex); break ;
+		case 1: hex = "1";System.out.println("The Hex  value is " + hex);  break ;
+		case 2: hex = "2"; System.out.println("The Hex  value is " + hex); break ;
+		case 3: hex = "3";System.out.println("The Hex  value is " + hex);  break ;
+		case 4: hex = "4"; System.out.println("The Hex  value is " + hex); break ;
+		case 5: hex = "5";System.out.println("The Hex  value is " + hex);  break ;
+		case 6: hex = "6";System.out.println("The Hex  value is " + hex);  break ;
+		case 7: hex = "7";System.out.println("The Hex  value is " + hex);  break ;
+		case 8: hex = "8"; System.out.println("The Hex  value is " + hex); break ;
+		case 9: hex = "9"; System.out.println("The Hex  value is " + hex); break ;
+		case 10: hex = "A";System.out.println("The Hex  value is " + hex);  break ;
+		case 11: hex = "B";System.out.println("The Hex  value is " + hex);  break ;
+		case 12: hex = "C";System.out.println("The Hex  value is " + hex);  break ;
+		case 13: hex = "D";System.out.println("The Hex  value is " + hex);  break ;
+		case 14: hex = "E";System.out.println("The Hex  value is " + hex);  break ;
+		case 15: hex = "F";System.out.println("The Hex  value is " + hex);  break ;}}
+		
+		else {
+			System.out.println("Invalid Input");
+		}
+	}
+}
